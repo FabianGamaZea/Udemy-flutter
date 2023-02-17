@@ -32,6 +32,7 @@ class _Test_tabla extends State<Test_tabla> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+  
           centerTitle: true, // centra el título
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -50,6 +51,7 @@ class _Test_tabla extends State<Test_tabla> {
               ),
             ],
           ),
+           backgroundColor: const Color.fromARGB(255, 1, 88, 79),
         ),
         backgroundColor: Colors.white,
         body: SafeArea(
@@ -64,6 +66,12 @@ class _Test_tabla extends State<Test_tabla> {
               Expanded(
                 child: SingleChildScrollView(
                   child: DataTable(
+                    //dataTextStyle: const TextStyle(fontSize:.5) ,
+                      //headingRowHeight: 0.2,
+                      //dataTextStyle: TextStyle(fontSize: 1),
+                       
+
+
                     columns: const <DataColumn>[
                       DataColumn(
                         label: Expanded(

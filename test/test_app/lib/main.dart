@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/screen/counter_screen.dart';
 import 'package:test_app/screen/home_screen.dart';
+import 'package:test_app/screen/tabla_reponsiv.dart';
 import 'package:test_app/screen/test_tabla.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     debugShowCheckedModeBanner: false,      //Desaparece la etiqueta debug
     home: Test_tabla()
     //home:CounterScreen()
+   // home:MyDataTable()
    );
   }
   

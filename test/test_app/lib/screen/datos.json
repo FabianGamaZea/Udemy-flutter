@@ -5,89 +5,83 @@
             "Vigente": 3,
             "Recuperado": 2,
             "Cartera Vencida": 1
-        }
-    },
-    {
+        },
+    
+    
         "Febrero": {
             "Adelantado": 19,
             "Vigente": 6,
             "Recuperado": 4,
             "Cartera Vencida": 3
-        }
-    },
-    {
+        },
+    
+    
         "Marzo": {
             "Adelantado": 11,
             "Vigente": 4,
             "Recuperado": 8,
             "Cartera Vencida": 4
-        }
-    },
-    {
+        },
+    
+    
         "Abril": {
             "Adelantado": 5,
             "Vigente": 1,
             "Recuperado": 3,
             "Cartera Vencida": 1
-        }
-    },
-    {
+        },
+    
+    
         "Mayo": {
             "Adelantado": 1,
             "Vigente": 1,
             "Recuperado": 1,
             "Cartera Vencida": 2
-        }
-    },
-    {
+        },
+    
+    
         "Junio": {
             "Adelantado": 3,
             "Vigente": 0,
             "Recuperado": 4,
             "Cartera Vencida": 2
-        }
-    },
-    {
+        },
+    
         "Julio": {
             "Adelantado": 7,
             "Vigente": 1,
             "Recuperado": 0,
             "Cartera Vencida": 1
-        }
-    },
-    {
+        },
+    
         "Agosto": {
             "Adelantado": 5,
             "Vigente": 1,
             "Recuperado": 1,
             "Cartera Vencida": 1
-        }
-    },
-    {
+        },
+    
         "Septiembre": {
             "Adelantado": 2,
             "Vigente": 5,
             "Recuperado": 0,
             "Cartera Vencida": 3
-        }
-    },
-    {
+        },
+    
         "Octubre": {
             "Adelantado": 3,
             "Vigente": 3,
             "Recuperado": 2,
             "Cartera Vencida": 4
-        }
-    },
-    {
+        },
+    
         "Noviembre": {
             "Adelantado": 4,
             "Vigente": 0,
             "Recuperado": 1,
             "Cartera Vencida": 1
-        }
-    },
-    {
+        },
+    
         "Diciembre": {
             "Adelantado": 2,
             "Vigente": 0,

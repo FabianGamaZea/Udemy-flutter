@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_components/screens/listview1_screen.dart';
 
 class HomeScreen extends StatelessWidget {
    
@@ -18,6 +19,10 @@ class HomeScreen extends StatelessWidget {
             leading: const Icon(Icons.abc_rounded),
             onTap:(){
 
+              // permite la contruccion de un Widget
+              final route = MaterialPageRoute(builder: (context) => const Listview1Screen());
+              Navigator.push(context, route);
+              
             },
         
           ),

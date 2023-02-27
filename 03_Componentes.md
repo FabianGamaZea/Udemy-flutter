@@ -132,4 +132,57 @@ Se crea a partir de una lista estatica
      ```
 ## Rutas iniciales
 Menu de Rutas
-1. 
++ Cerar HomeScreen en `screens/Homescreens.dart`
+   + añadir las rutas en `main.dart` 
+     ```Dart
+           
+      void main() => runApp(const MyApp());
+       
+      class MyApp extends StatelessWidget {
+        const MyApp({super.key});
+      
+      
+        @override
+        Widget build(BuildContext context) {
+          return  MaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: 'Material App',
+            //home: const Listview2Screen(),
+            initialRoute: 'home',
+            routes:  {
+              'home' : (BuildContext context ) =>   const HomeScreen(),
+              'listview1' : (BuildContext context ) =>    const Listview1Screen(),
+              'listview2' : (BuildContext context ) =>   const Listview2Screen(),
+              'alert' : (BuildContext context ) =>   const AlertScreen(),
+              'card' : (BuildContext context ) =>   const CardScreen(),
+      
+            },
+          );
+        }
+      }
+     ```
+     + Trabajar con rutas dinamicas puede derivar de ir a una ruta que no exista, eso se resielve con el metodo MaterialApp.onGenerateRoute: que genera nuevas rutas 
+
+       ```Dart
+       onGenerateRoute: (settings) {
+         print(settings);
+
+         return MaterialPageRoute(
+           builder: (context) => const CardScreen(),
+         );
+       },
+       ```
+## Navegacion a otra pantallas
+   ```Dart
+     // permite la contruccion de un Widget
+     final route = MaterialPageRoute(builder: (context) => const Listview1Screen());
+     Navigator.push(context, route);
+   ```
+  > Nota: Navigator no puede navegar a una ruta que no exista
+
+## AppRouter
+
+1. Centralizar las rutas en `lib/router/app_router.dart`:
+   ```Dart
+
+   ```
